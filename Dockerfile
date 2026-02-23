@@ -1,16 +1,23 @@
 FROM python:3.12-slim
 
 WORKDIR /app
+
+# Solo ESSENZIALI (no torch pesante!)
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --quiet \
+    fastapi \
+    uvicorn[standard] \
+    pydantic \
+    slowapi \
+    numpy \
+    && pip cache purge
 
-COPY . .
+# Copy app
+COPY main.py .
+COPY tools/ ./tools/  # Se hai moduli custom
+COPY downloads/ ./downloads/  # SRT files
 
-# Crea dir + user
-RUN mkdir -p /app/output /app/qdrant_storage && \
-    useradd -m appuser && \
-    chown -R appuser:appuser /app /tmp
+# Lazy models → NO download build time
+EXPOSE 8000
 
-USER appuser
-
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
