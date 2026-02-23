@@ -1,27 +1,16 @@
-FROM python:3.12-alpine AS builder
+FROM python:3.12-slim
 
 WORKDIR /app
 COPY requirements.txt .
-# NO torch full → CPU minimal
-RUN apk add --no-cache gcc musl-dev linux-headers && \
-    pip install --no-cache-dir --compile --user \
-    fastapi uvicorn[standard] pydantic slowapi && \
-    apk del gcc musl-dev linux-headers
+RUN pip install --no-cache-dir -r requirements.txt
 
-FROM python:3.12-alpine
-WORKDIR /app
+COPY . .
 
-# Copy SOLO runtime
-COPY --from=builder /root/.local /root/.local
-COPY main.py .
+# Crea dir + user
+RUN mkdir -p /app/output /app/qdrant_storage && \
+    useradd -m appuser && \
+    chown -R appuser:appuser /app /tmp
 
-# NO models download in build → lazy load runtime
-RUN apk add --no-cache curl tini && \
-    adduser -D appuser && chown -R appuser /app
 USER appuser
 
-ENV PATH=/root/.local/bin:$PATH
-EXPOSE 8000
-
-ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000"]
