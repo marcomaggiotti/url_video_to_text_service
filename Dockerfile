@@ -2,15 +2,8 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Solo ESSENZIALI (no torch pesante!)
 COPY requirements.txt .
-RUN pip install --no-cache-dir --quiet \
-    fastapi \
-    uvicorn[standard] \
-    pydantic \
-    slowapi \
-    numpy \
-    && pip cache purge
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy app
 COPY main.py .

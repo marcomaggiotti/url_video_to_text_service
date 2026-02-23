@@ -10,7 +10,6 @@ from pathlib import Path
 import re
 import os
 import yt_dlp
-import whisper
 
 
 @dataclass
