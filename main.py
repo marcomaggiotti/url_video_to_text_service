@@ -8,6 +8,14 @@ app = FastAPI()
 
 # ---------- domain logic ----------
 
+@app.get("/health")
+async def health():
+    return {"status": "healthy", "version": "1.0"}
+
+@app.get("/")
+async def root():
+    return {"message": "CAD-RAG API ready!"}
+
 def generate_files() -> tuple[Path, Path, Path]:
     """
     Your existing function that creates/returns:
