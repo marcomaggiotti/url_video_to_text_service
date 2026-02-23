@@ -14,9 +14,8 @@ RUN pip install --no-cache-dir --quiet \
 
 # Copy app
 COPY main.py .
-COPY tools/ ./tools/  # Se hai moduli custom
-COPY downloads/ ./downloads/  # SRT files
-
+COPY tools/ ./tools/
+COPY downloads/ ./downloads/
 # Lazy models → NO download build time
 EXPOSE 8000
 
