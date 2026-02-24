@@ -10,7 +10,7 @@ RUN mkdir -p downloads
 # Copy app
 COPY main.py .
 COPY tools/ ./tools/
-COPY downloads/ ./downloads/
+#COPY downloads/ ./downloads/
 # Lazy models → NO download build time
 EXPOSE 8000
 
