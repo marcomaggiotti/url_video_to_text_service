@@ -11,6 +11,8 @@ import re
 import os
 import yt_dlp
 import whisper
+import faster_whisper
+from pydantic import BaseModel
 
 
 @dataclass
@@ -21,6 +23,12 @@ class SRTMatch:
     end_time: str
     seconds: float
 
+class VideoResponse(BaseModel):
+    summary: str
+    action_items: List[str]
+    sentiment: str
+    speaker_times: dict
+    total_duration: float
 
 # =============================================================================
 # CONFIG & UTILS
@@ -198,12 +206,7 @@ def transcribe_audio(audio_file: str, output_dir: str = "transcripts",
 def download_video_to_txt(video_url: str, output_dir: str = "downloads",
                               language: str = "en"):
 
-
     """Audio + Whisper transcripts (unchanged signature)."""
-    print("=" * 50)
-    print("🎬 YOUTUBE + WHISPER")
-    print("=" * 50)
-
     audio_file = download_audio(video_url, output_dir)
     whisper_srt, whisper_txt = transcribe_audio(audio_file, output_dir, "base", language)
 
@@ -213,7 +216,6 @@ def download_video_to_txt(video_url: str, output_dir: str = "downloads",
     print(f"Whisper TXT: {whisper_txt}")
 
     return audio_file, whisper_srt, whisper_txt
-
 
 # =============================================================================
 # CLI (unchanged)

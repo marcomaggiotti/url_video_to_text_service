@@ -6,6 +6,9 @@ from pathlib import Path
 from tools.srt_tools import *
 import uvicorn
 from typing import Optional
+from fastapi import FastAPI, UploadFile
+from workflow import video_agent
+import tempfile
 
 app = FastAPI()
 
@@ -83,7 +86,7 @@ async def get_files(name:str):
 
     return FilesResponse(webm=webm, srt=srt, text=text)
 
-@app.get("/extract-text-2video", response_model=FilesResponse)
+@app.get("/extract-text-from-video", response_model=FilesResponse)
 async def process_video(
     video_url: str = Query(..., description="YouTube/Direct video URL")):
 
@@ -101,6 +104,28 @@ async def process_video(
     webm = FileJson(filename=webm_file.name, mimetype="video/webm", content_b64=encode_file(webm_file))
 
     return FilesResponse(webm=webm, srt=srt, text=text)
+
+@app.post("/agent/analyze")
+async def analyze_video_agent(
+        video_url: str = Query(..., description="YouTube/URL video"),
+        instructions: Optional[str] = "Summary + action items"
+):
+    result = video_agent.invoke({
+        "video_url": video_url,
+        "instructions": instructions
+    })
+
+    return {
+        "summary": result["summary"],
+        "actions": result.get("actions", []),
+        "sentiment": result.get("sentiment", ""),
+        "files": {
+            "webm": result["webm_path"],
+            "srt": result["srt_path"],
+            "txt": result["txt_path"]
+        }
+    }
+
 
 if __name__ == "__main__":
 
