@@ -5,8 +5,8 @@ import base64
 from pathlib import Path
 from tools.srt_tools import *
 import uvicorn
-from typing import Optional
-from fastapi import FastAPI, UploadFile
+from typing import Optional, List
+from fastapi import FastAPI, Query
 from workflow import video_agent
 import tempfile
 
@@ -105,27 +105,45 @@ async def process_video(
 
     return FilesResponse(webm=webm, srt=srt, text=text)
 
+
 @app.post("/agent/analyze")
 async def analyze_video_agent(
         video_url: str = Query(..., description="YouTube/URL video"),
-        instructions: Optional[str] = "Summary + action items"
+        instructions: Optional[str] = Query("Summary + action items", description="Instructions"),
+        keywords: Optional[List[str]] = Query(None, description="Keywords manuali (opzionale)")
 ):
+    """Video Intelligence Agent - Keywords + Intervalli"""
+
+    # Invoke con supporto keywords
     result = video_agent.invoke({
         "video_url": video_url,
-        "instructions": instructions
+        "instructions": instructions,
+        "keywords": keywords  # ✅ Manual keywords!
     })
 
+    # ✅ BACKWARDS COMPATIBLE + Enhanced
     return {
-        "summary": result["summary"],
-        "actions": result.get("actions", []),
-        "sentiment": result.get("sentiment", ""),
+        # Original API structure (maintained)
+        "summary": result["full_summary"],  # ← Mappato
+        "actions": result["actions"],
+        "sentiment": result["sentiment"],
         "files": {
             "webm": result["webm_path"],
             "srt": result["srt_path"],
             "txt": result["txt_path"]
+        },
+
+        # ✅ NUOVO: Keyword intelligence
+        "keywords": result["keywords"],
+        "keyword_intervals": result.get("keyword_intervals", []),
+        "interval_summary": result.get("interval_summary", ""),
+
+        # Debug
+        "debug": {
+            "total_chunks": len(result["chunks"]),
+            "transcript_length": len(result["txt_content"])
         }
     }
-
 
 if __name__ == "__main__":
 
