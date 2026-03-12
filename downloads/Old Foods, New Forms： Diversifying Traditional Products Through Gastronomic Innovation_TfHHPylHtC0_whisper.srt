@@ -1,0 +1,1559 @@
+1
+00:00:30,000 --> 00:00:59,960
+Hello everyone and welcome back to KojiCon 2018.
+
+2
+00:00:59,960 --> 00:01:07,960
+My name is Eric Dawson and I'm the director of program innovation here for the Yellow Farmhouse Education Center.
+
+3
+00:01:07,960 --> 00:01:15,960
+We're a small nonprofit based here in South Eastern Connecticut and our mission is to connect people to each other and to where their food comes from through culinary and farm based education.
+
+4
+00:01:15,959 --> 00:01:21,959
+KojiCon wouldn't be possible if KojiCon 2025 would not be possible without the generous support of all of our sponsors.
+
+5
+00:01:21,959 --> 00:01:29,959
+Specifically our cultivator sponsor this year Sanjay as well as our session sponsor for this presentation the European NISO Institute.
+
+6
+00:01:29,959 --> 00:01:42,959
+Today we're going to be joined by Emil Sampson for a presentation called Old Foods New Forms, a framework for conceptualizing the diversification of traditional products through gastronomic innovation.
+
+7
+00:01:43,959 --> 00:01:52,959
+Emil so born on the sunny island of Curacao and educated at Wageningen, educated in Wageningen, the Dutch city of life sciences.
+
+8
+00:01:52,959 --> 00:01:58,959
+Emil Sampson has cultivated a deep passion for MISO which inspired him to co-found the European MISO Institute.
+
+9
+00:01:58,959 --> 00:02:06,959
+This nonprofit organization is dedicated to bridging the knowledge gap and enhancing the understanding of MISO within a European context.
+
+10
+00:02:07,959 --> 00:02:19,959
+For his master's thesis, Emil explored the effects of salt on Lupin MISO fermentation and aroma formation, a study that sparked his ongoing fascination with art and science of fermentation.
+
+11
+00:02:19,959 --> 00:02:28,959
+Since then he has applied his expertise in fungal fermentation across diverse settings including pop-ups, restaurants, research labs and industry.
+
+12
+00:02:28,960 --> 00:02:40,960
+In line with the theme tradition meets transformation, Emil is thrilled to share his unique perspective on the challenges and opportunities surrounding the conceptualization of innovations in traditional fermented foods.
+
+13
+00:02:40,960 --> 00:02:53,960
+You can learn all about what Emil is doing on his personal Instagram. Emil's food is ventures and you can also check out the European MISO Institute as well through their Instagram right over here.
+
+14
+00:02:54,960 --> 00:02:57,960
+So with that, I would love to welcome Emil Sampson to our stream.
+
+15
+00:02:59,960 --> 00:03:00,960
+Hello everyone.
+
+16
+00:03:00,960 --> 00:03:04,960
+I'm feeling good. Thank you Eric for the warm introduction.
+
+17
+00:03:04,960 --> 00:03:08,960
+So let me go ahead and share my screen.
+
+18
+00:03:14,960 --> 00:03:21,960
+All right. So thanks again for being here for my presentation.
+
+19
+00:03:21,960 --> 00:03:25,960
+By now you might already have a sense about what we are going to be talking about today.
+
+20
+00:03:25,960 --> 00:03:37,960
+In this talk titled Old Foods New Forms, we will be diving into the three factor framework, a collaborative effort between the European MISO Institute and the Center for Biosustainability from the Technical University of Denmark.
+
+21
+00:03:37,960 --> 00:03:47,960
+But I'd also like to spend a few moments to introduce the European MISO Institute to those who may not be familiar with us yet, especially in the non-European audience.
+
+22
+00:03:48,960 --> 00:04:03,960
+So it only feels right to start the presentation with how the European MISO Institute or EMI came to be because it's very origins embody the spirit of community that defines Kojikon and the hashtag Kojibilt community movement.
+
+23
+00:04:04,960 --> 00:04:13,960
+So the Institute's co-founder, Mackerel and I, we initially connected through Instagram just to MISO enthusiasts drawn together by our shared passion for presentation.
+
+24
+00:04:14,960 --> 00:04:21,960
+But our real turning point came in the summer of 2022 when we met up in a Dutch fermentation festival, all the Rotsoi.
+
+25
+00:04:21,960 --> 00:04:33,960
+It was very inspiring event with moving talks from various fermentation pioneers, the likes of Sander Katz, Diego Prado, Marikahun and many other passionate experts.
+
+26
+00:04:33,960 --> 00:04:40,960
+And during our discussions at the festivals surrounded by other fermentation synetics, we had a realization.
+
+27
+00:04:40,959 --> 00:04:54,959
+While MISO fermentation is an incredibly exciting craft, it remains kind of a niche in Europe and there was no organization dedicated to advocating for MISO or other Fungal fermented products as an integral part of our food culture.
+
+28
+00:04:54,959 --> 00:05:05,959
+We saw this as an opportunity and a need to create something that would give MISO the platform it deserves not just as a culinary ingredient but as a powerful tool in the green transition as well.
+
+29
+00:05:06,959 --> 00:05:12,959
+We started as, what started as an idea between a handful of us quickly grew into something much greater.
+
+30
+00:05:12,959 --> 00:05:17,959
+Over the next few months we brainstormed, attracted new members and formalized our vision.
+
+31
+00:05:17,959 --> 00:05:23,959
+We wrote our manifesto, launched our website and just like that, the European MISO Institute was born.
+
+32
+00:05:24,959 --> 00:05:32,959
+So EMI is not just about promoting MISO, it's about bridging knowledge gaps and reshaping the way Europe understands and integrates fermented foods.
+
+33
+00:05:33,959 --> 00:05:46,959
+According to the consumer research from the health firm project, which is kind of a European wide survey that was done, it turns out that 46% of European consumers do not even recognize the word MISO.
+
+34
+00:05:46,959 --> 00:05:52,959
+Another significant portion of them only associated maybe very vaguely with a Japanese soup.
+
+35
+00:05:52,959 --> 00:05:55,959
+But we all know that MISO is so much more.
+
+36
+00:05:55,959 --> 00:06:01,959
+It's a nutritional powerhouse, a flavor enhancer and a symbol of deep culinary tradition.
+
+37
+00:06:01,959 --> 00:06:08,959
+We believe that MISO and other umami rich fermented foods have a vital role to play in Europe shift towards plant-based eating.
+
+38
+00:06:08,959 --> 00:06:14,959
+But for this to happen, MISO needs to become more than just an exotic curiosity. It needs to become a staple.
+
+39
+00:06:14,959 --> 00:06:23,959
+And this will require Europeans to familiarize themselves with a new ingredient to the point that they can integrate it into their local cuisines and cooking habits.
+
+40
+00:06:23,959 --> 00:06:33,959
+But it can also mean that larger scale manufacturers will learn to incorporate MISO into their products to enhance flavor and nutrition in a more natural and exciting way.
+
+41
+00:06:33,959 --> 00:06:52,959
+So to achieve a wider growth of the industry in Europe, we believe that MISO making the MISO making process, particularly for analog and experimental MISOs, the distinction I will get to a bit later in this talk, should be more academically validated to conform with specific European food safety requirements.
+
+42
+00:06:53,959 --> 00:07:03,959
+So to achieve this goal, we try to encourage interdisciplinary curiosity towards MISO and other products of fungal fermentation and cross domain scientific research.
+
+43
+00:07:03,959 --> 00:07:16,959
+The paper we are discussing today is a perfect example of this as it can serve as a tool for discussion among fermentation geeks, but also as a kind of guide for someone that is less familiar with this space, such as maybe food-regulated,
+
+44
+00:07:16,959 --> 00:07:27,959
+labor, leaders to navigate and understand both newer and more innovative products of fungal fermentation, as well as their historical reference with the long and safe use history.
+
+45
+00:07:27,959 --> 00:07:34,959
+So Western food standards have traditionally been built around bacterial fermentation, leaving more fermentation in a gray area.
+
+46
+00:07:34,959 --> 00:07:39,959
+This can lead to a lot of unnecessary concerns or even regulatory barriers.
+
+47
+00:07:40,959 --> 00:07:46,959
+A concrete example of this is the growth and presence of bacilli in the cogean miso fermentation process.
+
+48
+00:07:46,959 --> 00:07:56,959
+It is widely recognized that different bacilli such as bacillus amylolica facians, difficult name, can be present and play a role in miso fermentation.
+
+49
+00:07:56,959 --> 00:08:08,959
+However, in Europe, the presence of bacillus, in particularly bacillus cereus, on legumes and grains, is heavily scrutinized due to its potential for toxin production and the heat stability of the spores.
+
+50
+00:08:09,959 --> 00:08:19,959
+If regulators apply broad food safety guidelines without a deep understanding of miso, microbial dynamics, small-scale producers could face unnecessary challenges.
+
+51
+00:08:19,959 --> 00:08:31,959
+The same issue applies to enterocococobai, like enterocococostrasian, which is sometimes flagged as a sign of water contamination, but can naturally occur in miso without posing a risk as well.
+
+52
+00:08:31,959 --> 00:08:38,960
+It is sometimes even able to produce some bacteria since that prevents other pathogens from growing in miso.
+
+53
+00:08:38,960 --> 00:08:46,960
+Even if you were to do a DNA analysis of cogee, it is likely that the analysis will tell you that your sample contains aspergillus flavus.
+
+54
+00:08:46,960 --> 00:08:53,960
+Like Elliott mentioned, it is interesting talk earlier this week. It is a potent micro-potoxin producer.
+
+55
+00:08:53,960 --> 00:09:10,960
+Aspergillus or Rizae is basically just a domesticated firm of aspergillus flavus that has had key genes for toxin production inactivated through the process of domestication, but they still have over 90% DNA similarity, so that can cause this sort of confusion.
+
+56
+00:09:10,960 --> 00:09:26,960
+As fermented foods gain popularity, we need to ensure that miso producers are equipped with the scientific backing to prove that their products are not only safe but beneficial, and we at the European Miso Institute would like to play a supporting role in that.
+
+57
+00:09:26,960 --> 00:09:35,960
+That is why one of EMI's first major projects was to launch an open-source database with scientific literature on cogee fermentation.
+
+58
+00:09:35,960 --> 00:09:45,960
+We wanted to create a resource that the fermentation community, be it hobbyists or professionals, could access to better understand the science behind miso and cogee as a whole.
+
+59
+00:09:45,960 --> 00:09:56,960
+While we can't provide access to every paper due to pay walls of the journals, we've curated the collection of the most relevant research, and we invite the community to also contribute to this.
+
+60
+00:09:56,960 --> 00:10:04,960
+If you know any articles that we've missed, or that you would like to include them, please do get in touch with us.
+
+61
+00:10:04,960 --> 00:10:16,960
+So if you are wondering about the phases behind EMI, we are currently 12 active members from five different countries, along with a few longer-term collaborators and a strong international board of advisors.
+
+62
+00:10:16,960 --> 00:10:33,960
+When we envisioned the European Miso Institute, we had grand ambitions. There were going to be five simultaneous working groups that are tackling different projects simultaneously, but as it is with any grassroots efforts, we quickly learned that sustainable growth requires patience.
+
+63
+00:10:33,960 --> 00:10:41,960
+While there's a lot that we'd love to do, for the moment we are completely volunteer-based, and we all have to balance this work with our jobs and our lives.
+
+64
+00:10:41,960 --> 00:10:55,960
+So therefore we've opted for more of an organic growth path, working on our online presence, doing projects that keep our members excited, such as actually this paper that we've written and collaborating where we can.
+
+65
+00:10:56,960 --> 00:11:04,960
+In 2024, we wanted to organize the first European Miso Summit in Brussels, which some of you might have seen on our Instagram.
+
+66
+00:11:04,960 --> 00:11:13,960
+However, the costs associated with the live event combined with the cost of travel and accommodation made it difficult for other European miso producers to commit to joining us.
+
+67
+00:11:14,960 --> 00:11:26,960
+Since we didn't have a sponsor for the event, the financial risk was too big for us at this stage. So we downsized and reorganized to create a pop-up dinner, which actually turned out a really good decision and a great success.
+
+68
+00:11:26,960 --> 00:11:33,960
+We focused on presenting Spanish cuisine in an exciting blend of tradition and fermented innovation.
+
+69
+00:11:33,960 --> 00:11:41,960
+Since many of our members are situated in different countries, it was actually the first time that many of us had met up in person, which was really nice.
+
+70
+00:11:42,960 --> 00:11:48,960
+And yeah, as I mentioned, we are looking for collaborations and more people that want to join our initiative.
+
+71
+00:11:48,960 --> 00:11:59,960
+So consider this as an open invitation that if you have any ideas for collaborations or if you're interested in contributing to the institute, then feel free to get in touch with us.
+
+72
+00:11:59,960 --> 00:12:15,960
+So yeah, I hope that you enjoyed that little introduction to our organization. Now I'm very excited to introduce you to our project titled Old Foods New Forms, a framework for conceptualizing the diversification of traditional products to gastronomic innovation.
+
+73
+00:12:15,960 --> 00:12:33,960
+So this project actually started with the idea of writing an opinion paper where we kind of formally put into the world what we at the European Miso Institute understand Miso to be, as well as the benefits that it has and the role that it can play in the umamification of plant foods and the green transition as well.
+
+74
+00:12:33,960 --> 00:12:41,960
+And we also wanted to incorporate sort of a section that directed at future directions for research.
+
+75
+00:12:42,960 --> 00:13:01,960
+So we started from this idea and created an academic working group and got in touch with Joshua Evans at the center for biosustainability at the technical University of Denmark, who was a particularly suitable collaborator for this project, considering his work at the Nordic Food Lab and earlier academic works.
+
+76
+00:13:01,960 --> 00:13:16,960
+So we pitched our idea to Joshua and glad they liked it and agreed to collaborate with us. So this led us to the first order of business, which was a very simple question or maybe it seems like a simple question deceptively so what is Miso?
+
+77
+00:13:16,960 --> 00:13:31,960
+Yeah, we spent the following weeks having meeting after meeting still struggling to find the definition that does justice to all that Miso is and can be and also how it relates to other umami based from countries neighbor in Japan.
+
+78
+00:13:31,960 --> 00:13:46,960
+These discussions got us thinking about a categorical distinction between types of Miso's by listing various different examples of Miso's particularly the extraordinary ones and having kind of a brainstorm session together and seeing how they related to each other.
+
+79
+00:13:46,960 --> 00:13:58,960
+We realized that they all differed for varying extents through three main dimensions or factors being their ingredients, the process by which they are made and their sensory profile.
+
+80
+00:13:58,960 --> 00:14:05,960
+Hence we named the framework that eventually sprung from these brainstorming sessions, the three factor or three at framework.
+
+81
+00:14:05,960 --> 00:14:20,960
+Though we initially created the framework to find a constructive way to discuss how traditional analog and experimental Miso's related to each other, kind of going through some theoretical exercises it ended up suggesting an even bigger picture.
+
+82
+00:14:20,960 --> 00:14:34,960
+But before we dive into the framework and how it works, I would like to set the stage for what makes this work so important in our eyes and why we were struggling so much with the finding Miso despite being the European Miso Institute.
+
+83
+00:14:34,960 --> 00:14:41,960
+So we live in an increasingly globalized world that is facing a variety of ecological, political and cultural challenges.
+
+84
+00:14:41,960 --> 00:14:55,960
+Many of us in this community have dealt with all of this by uncertainty, by reconnecting with our food production and traditional practices, which has led to a global fermentation renaissance as Sandercut likes to call it.
+
+85
+00:14:55,960 --> 00:15:09,960
+And this has led to the rediscovery and reappreciation of traditional fermentation techniques, but as a result of globalization these techniques spread around the world and are recombined in novel ways.
+
+86
+00:15:09,960 --> 00:15:24,960
+So this has many nice consequences, such as the opportunity for cultural exchange, increased dietary diversity and gut health and the maintenance of food tradition through community initiatives as well as other means such as fermentation tourism.
+
+87
+00:15:24,960 --> 00:15:37,960
+However, as was discussed by Maya Hay in their critically reflective talk last year, in some cases it can also enable the decontextualization and sometimes appropriation of these traditional fermented products.
+
+88
+00:15:37,960 --> 00:15:45,960
+And with that I mean that the new practitioners receive value without proper credit or value sharing to their originators.
+
+89
+00:15:45,960 --> 00:15:57,960
+So it becomes clear that as tradition needs transformation, there will be practical social and cultural challenges and a need to navigate the politics of appreciation versus appropriation.
+
+90
+00:15:57,960 --> 00:16:08,960
+But there is also a conceptual challenge. How do we accommodate innovation within a given product category while retaining the ability to differentiate within that category?
+
+91
+00:16:08,960 --> 00:16:20,960
+Let that question sink in for a second. What does it mean? So basically if I make a sauce out of mushrooms and Koji and decide to call it a garam, how does that affect the concept of what is a garam?
+
+92
+00:16:20,960 --> 00:16:28,960
+How do we differentiate between the sauce and the ancient Roman fish sauce? How do we differentiate the sauce from a mushroom show you?
+
+93
+00:16:28,960 --> 00:16:46,960
+As you can see the lines can get very blurry sometimes. And how we seem to name things can have a lot of implications. Interestingly we didn't find any conceptual tools or framework that could facilitate the nuance discussion on innovation and the growing diversification within certain categories.
+
+94
+00:16:46,960 --> 00:17:02,960
+So this is why we gradually shifted away from the idea of writing an opinion paper towards developing this framework with it. We hope to offer a tool to make sense of these culinary and cultural developments in a more systemic way.
+
+95
+00:17:02,960 --> 00:17:16,960
+This way we can move forward with innovating without losing sight of the value of tradition and existing diversity in what Joshua liked to call the both and approach rather than an either or approach to tradition and innovation.
+
+96
+00:17:16,960 --> 00:17:28,960
+Okay, so the stage has been set. Now it's time for me to bring back the framework and as you can see it consists of three overlapping circles, which is also called a bend diagram.
+
+97
+00:17:28,960 --> 00:17:41,960
+Each circle represents one key factor that shapes food products. So first you have the ingredients referring to the main raw materials. Then there is the process referring to the overall method by which it is created.
+
+98
+00:17:41,960 --> 00:17:55,960
+And lastly we have the sensory profile, which refers to the general sensory features that are taken, especially by members of the products originating culture to be necessary for something to be understood as an instance of that product.
+
+99
+00:17:55,960 --> 00:18:12,960
+Maybe a long sentence, but it's actually quite simple. If you were to create a red sauce based on ground beef and tomatoes and say this is a bolunyous, but an Italian tasted and says that it tastes nothing like a traditional bolunyous, then it isn't a traditional bolunyous.
+
+100
+00:18:13,960 --> 00:18:18,960
+A bit of a stupid example maybe, but I hope that it illustrates what we are trying to say.
+
+101
+00:18:18,960 --> 00:18:28,960
+The overlap of these three factors results in seven fields of categorization defined by how and how much data I've urged from the traditional products in the center.
+
+102
+00:18:28,960 --> 00:18:40,960
+Next I will introduce each of the category fields and give an example of a miso that fits the category to illustrate how the framework can be applied.
+
+103
+00:18:41,960 --> 00:18:49,960
+Oops, I forgot that I had all of these. So yeah, those are the seven category fields.
+
+104
+00:18:49,960 --> 00:19:06,960
+So first in the center, we have traditional products that are defined by the combination of ingredients, process and sensory profiles that are generally accepted to be the standard by standard we refer to an agreement within a group.
+
+105
+00:19:06,960 --> 00:19:18,960
+It refers to the properties that individuals of the originating culture would agree are necessary for an item to belong to that product category, not withholding though like some specific regional or household level differences.
+
+106
+00:19:18,960 --> 00:19:25,960
+These standards often have strong cultural significance and are sometimes also legally defined and protected.
+
+107
+00:19:25,960 --> 00:19:42,960
+This is the case in Japan where the Japanese Ministry of Agriculture for three and fisheries defines miso as a semi-solid paste of salted soybeans, which is made which may include grains such as rice and barley and is fermented by the Koji mold as per silas or is I.
+
+108
+00:19:43,960 --> 00:19:56,960
+The sensory profile of traditional miso can be described as umami salty sweet slightly acidic and highly aromatic. However, there are of course many traditional variations, which can be sub categorized to different parameters.
+
+109
+00:19:57,960 --> 00:20:07,960
+So one way to categorize traditional cogs traditional miso is by the Koji ingredients. So you have rice, miso or kome miso, which is common throughout the country.
+
+110
+00:20:07,960 --> 00:20:17,960
+Then there's also soybean or maame miso, which is common in the central areas and last leaders barley or muke miso, which is more common in the southern areas.
+
+111
+00:20:17,960 --> 00:20:27,960
+You can also categorize by flavor and then you would get like low salt or amami miso sweet or amakuchi miso and strong or kara kuchi miso.
+
+112
+00:20:27,960 --> 00:20:41,960
+And one last way to categorize is by color and aging periods. That's where you have your red miso or akami so which tends to be a bit older yellow miso or tan shoku miso, which is a bit in the middle and then a white or shiro miso, which is younger.
+
+113
+00:20:41,960 --> 00:20:58,960
+And as you can see, even within this relatively strict definition of traditional miso, there's already a world of diversity from your sweet and fruity psychy miso from Kyoto to that is fermented for like four to five weeks using rice Koji all the way to dark and complex hot jo miso.
+
+114
+00:20:58,960 --> 00:21:05,960
+They's purely on soybeans and age all the way up to 36 months.
+
+115
+00:21:05,960 --> 00:21:13,960
+So next we have analog products, which are defined by the standard production process and sensory profiles and non standard ingredients.
+
+116
+00:21:13,960 --> 00:21:30,960
+This is where you have your classic new age miso, such as no must be so, which is based on barley Koji and the initial piece in this category, the ingredients typically have similar macromolecular compositions to the standard ingredients so that the standard sensory profile can be achieved.
+
+117
+00:21:30,960 --> 00:21:38,960
+For miso, this means having a starchy Koji substrate and a protein rich miso substrate, typically a lably legume.
+
+118
+00:21:38,960 --> 00:21:47,960
+And this approach has the advantage of being able to unlock a new but familiar umami taste while also using locally available ingredients.
+
+119
+00:21:47,960 --> 00:21:58,960
+Since miso is a relatively high value product and we put a lot of time and love into making it, we think that the same care should be put into sourcing your ingredients.
+
+120
+00:21:58,960 --> 00:22:10,960
+So I'd encourage everyone to use the best possible ingredients for your analog misos, such as organic and heritage grains, which supports local sustainable farmers and also the preservation of heritage seeds and biodiversity.
+
+121
+00:22:10,960 --> 00:22:15,960
+So another aspect that comes into play here is microbial terroir.
+
+122
+00:22:15,960 --> 00:22:24,960
+Since misos in this category can be made outside of Japan, where a different climates have different microbiodes, which is also the case for the substrate to use.
+
+123
+00:22:24,960 --> 00:22:44,960
+Since analog misos can display different microbial compositions from what we would typically expect from traditional miso, which was nicely demonstrated in the paper titled exploring the microbial diversity of novel misos with method genomics, also written by Joshua Evans and his colleagues at biosostained.
+
+124
+00:22:44,960 --> 00:23:06,960
+So you may hear me using the term novel throughout this talk, particularly when discussing kind of more modern misos and to clarify in this context, we use the term novel to mean new and diverging from conventional approaches, not in the sense defined by the European food or apsa.
+
+125
+00:23:06,960 --> 00:23:22,960
+Sorry, forgot what the acronym is, but yeah, by the apsa. Under EU regulations, a novel food is any food that was not consumed significantly within the EU before May of 1997, which is like a very strict cutoff.
+
+126
+00:23:22,960 --> 00:23:35,960
+And such foods require authorization before being placed on the market. However, based on our research, there is sufficient evidence that food produced with aspergillus or is I was consumed in Europe before this cutoff dates.
+
+127
+00:23:35,960 --> 00:23:48,960
+And therefore, as long as modern misos adhere to the traditional production methods and using radians that are not classified as non-foods, they should not fall under the EU novel foods regulation at all.
+
+128
+00:23:48,960 --> 00:23:52,960
+So rest assured there.
+
+129
+00:23:52,960 --> 00:24:03,960
+So next we have category three, experimental. Experimental products are defined by the standard production process, but with non-standard ingredients and non-standard sensory profiles.
+
+130
+00:24:03,960 --> 00:24:07,960
+Now, this is where things start getting funky when it comes to misos.
+
+131
+00:24:07,960 --> 00:24:15,960
+Products belonging to this category are usually loosely inspired by the traditional products, but diverge further away from them than analog ones.
+
+132
+00:24:15,960 --> 00:24:27,960
+They are based on the same fundamental processes, sometimes with minor tweaks, and can have similar culinary uses, but involve novel ingredients, often with non-standard macromolecular compositions.
+
+133
+00:24:27,960 --> 00:24:40,960
+Ealing products with even more different sensory profiles. So in the past 15 years or so, innovative chefs and fermentation practitioners have been experimenting with miso in even more boundary pushing ways.
+
+134
+00:24:40,960 --> 00:24:56,960
+The sensory profile of a miso is largely defined by the enzymatic breakdown of the substrates, macromolecular components into their constituent parts, as well as some subsequent chemical reactions and secondary microbial metabolic processes.
+
+135
+00:24:56,960 --> 00:25:08,960
+So as a result of swapping out soybean and rice for diverse ingredients, even beyond other legumes and grains, often yield products with distinct non-standard sensory profiles.
+
+136
+00:25:08,960 --> 00:25:19,960
+This category also includes crossover fermentation, where two separate fermentation processes involving different microbes are combined to create something entirely new.
+
+137
+00:25:20,960 --> 00:25:36,960
+So one great example of these are dairy misos. They are particularly illustrative as a presence of dairy fats and their subsequent breakdown products, result in the miso with very intense aromatic properties reminiscent of blue cheese.
+
+138
+00:25:36,960 --> 00:25:52,960
+Basically, almost any fat containing dairy product that you mix with Koji will inevitably go into that direction. Now why is that? Just like the species of panicillin-modal-coforty involved in blue cheese making, as per jealous or desire produces lipases.
+
+139
+00:25:52,960 --> 00:26:08,960
+The lipases break down fat into glycerol and free fatty acids. These free fatty acids are highly reactive compounds. So they will react further into compounds like ketones, alcohols, etile acids that give a strong blue cheese aroma.
+
+140
+00:26:08,960 --> 00:26:19,960
+Because this second part of the process, the first part is the enzymatic part, then the second part is more of a chemical process. It doesn't rely on a certain enzyme at all.
+
+141
+00:26:19,960 --> 00:26:33,960
+So it doesn't have anything to do with Koji, the second part, which basically means that whether the lipase comes from panicillin or from as per jealous, you will inevitably start going into this sort of funky, blue cheese direction.
+
+142
+00:26:33,960 --> 00:26:42,960
+So if you're interested in more of the science behind dairy misos, there is a great paper by Alexander Dunck from the University of Washington, where I also studied.
+
+143
+00:26:42,960 --> 00:26:56,960
+And the paper is on the crossover fermentation concept and its application in dairy miso, which I would highly recommend reading. But I like rest now back to sort of the more general concept of experimental misos.
+
+144
+00:26:56,960 --> 00:27:06,960
+In many cases, experimental misos have arisen out of a need to repurpose side streams or to conserve excessive ingredients in order to reduce food waste.
+
+145
+00:27:06,960 --> 00:27:19,960
+Particularly in practitioners at home, as well as sustainability driven restaurants that seek to utilize kitchen waste and buy products and maximize flavor to their ingredients.
+
+146
+00:27:19,960 --> 00:27:29,960
+Then you get into things like bread misos, herb misos, even fruit misos, I've seen in many of these cases, there is not necessarily a lot of protein present.
+
+147
+00:27:29,960 --> 00:27:35,960
+So we aren't really going into this typical umami-focused flavor profile of a traditional miso.
+
+148
+00:27:35,960 --> 00:27:42,960
+But Koji, as well as the other heliphylic microbes involved in a miso fermentation, can still react with these ingredients in interesting ways.
+
+149
+00:27:42,960 --> 00:27:49,960
+And the presence of plant-ful salt makes misos making still like a great way to preserve flavors.
+
+150
+00:27:49,960 --> 00:27:58,960
+I remember in last year's Koji con at the recap, someone mentioned a miso made from various leftover food scraps from an event.
+
+151
+00:27:58,960 --> 00:28:09,960
+And then they baked this miso into cookies. And during the talk they were considering whether to make these cookies back into a miso, effectively creating like an infinity miso cycle.
+
+152
+00:28:10,960 --> 00:28:14,960
+And that pretty much sums up the idea behind experimental misos.
+
+153
+00:28:14,960 --> 00:28:24,960
+But we might be inclined to think that this is a very like western thing to do, and would easily conclude that there are no experimental misos in Japan.
+
+154
+00:28:24,960 --> 00:28:26,960
+But this would be a very false assumption.
+
+155
+00:28:26,960 --> 00:28:33,960
+If we look beyond the main types of miso, there are actually many regional variations that might fall into this category.
+
+156
+00:28:33,960 --> 00:28:46,960
+Take for example, Sotetsu miso, which is made by mixing Japanese saggo palm cones with unpolished rice and barley to make Koji, which is then mixed with soy bean, sweet potatoes and salt.
+
+157
+00:28:46,960 --> 00:28:54,960
+This is a form of miso that has been historically produced in Japan's southern islands of Okinawa, where soy beans were less available.
+
+158
+00:28:54,960 --> 00:28:58,960
+But other products like saggo palm and sweet potatoes were abundant.
+
+159
+00:28:58,960 --> 00:29:18,960
+So this shows that not all experimental misos come from outside of the standard culture, which can also be referred to forms of edic innovation as opposed to emic innovation, which I will define in the next slide.
+
+160
+00:29:18,960 --> 00:29:24,960
+So category 4 is a special case, because it actually is like a double category.
+
+161
+00:29:24,960 --> 00:29:31,960
+It consists of products that are defined by standard ingredients and process and non-standard sensory profiles.
+
+162
+00:29:31,960 --> 00:29:36,960
+When the non-standard sensory profile is undesirable or unintended, it is a fault.
+
+163
+00:29:36,960 --> 00:29:40,960
+But when it is desirable or intended, it is an example of emic innovation.
+
+164
+00:29:40,960 --> 00:29:55,960
+Now, if you are like me and you haven't studied anthropology, then this word emic might initially confuse you, but it just means from the perspective of the originating culture, as opposed to edic, which refers to an outsider's perspective.
+
+165
+00:29:55,960 --> 00:30:06,960
+So emic innovations are typically traditional products that intentionally seek to push the boundaries of the standard sensory profile from within the product standard culture.
+
+166
+00:30:07,960 --> 00:30:15,960
+So what is seen as traditional today has in many cases been transformed through inic innovation over time from the traditions of yesterday.
+
+167
+00:30:15,960 --> 00:30:26,960
+We consider again my miso a product of inic innovation, because it is a variety of miso that the parts only slightly from the standard.
+
+168
+00:30:26,960 --> 00:30:28,960
+Sorry.
+
+169
+00:30:29,960 --> 00:30:38,960
+The parts only slightly from the standard white rice miso by using lightly polished brown rice as the ingredients for Koji making.
+
+170
+00:30:38,960 --> 00:30:48,960
+The rice brand contains a lot of fibers, lipids and minerals, which contribute to a non-standard flavor profile that is kind of nuttier and earthier.
+
+171
+00:30:48,960 --> 00:30:59,960
+That's an example of emic innovation for you. The process and the ingredients are basically the same, but with a slight modification, the removal of the rice polishing step, we get something new and different from the standard miso.
+
+172
+00:30:59,960 --> 00:31:08,960
+Now bear with me for this next part, because it's about to get a whole lot more sciencey, which I think that this audience may appreciate.
+
+173
+00:31:09,960 --> 00:31:27,960
+So one of the things that I discovered during my master thesis when I was researching the flavor compounds in new loop and miso made with barlie Koji was that besides the typical volatile compounds you would expect in the miso, such as alcohols, acids and esters, there was a strong presence of volatile phenolic compounds.
+
+174
+00:31:27,960 --> 00:31:32,960
+These compounds are typically associated with soy sauce, but are usually not detected in traditional miso.
+
+175
+00:31:32,960 --> 00:31:40,960
+In soy sauce, phenols are formed by the degradation of lignin, glycosides, originating from the cereal brand in whole wheat.
+
+176
+00:31:40,960 --> 00:31:46,960
+As a general rule, simple phenolic compounds can also be released from other dietary fibers as well.
+
+177
+00:31:47,960 --> 00:32:00,960
+And there are many bacteria and fungi that include gene for phenolic acid decarboxylase enzyme, which is needed to convert the phenolic acids into the volatile form, which is called the phenyl derivative.
+
+178
+00:32:00,960 --> 00:32:14,960
+And based on these findings, I assume that the same thing would happen with the rice brand, also leading to the release of phenolic compounds from its dietary fibers, such as is depicted here in the bottom left corner.
+
+179
+00:32:15,960 --> 00:32:26,960
+Yeah, these forms compounds, such as those that are depicted here in these compounds, coincidentally are also formed actually through pyrolysis of lignin, so burning.
+
+180
+00:32:26,960 --> 00:32:38,960
+And they are also present, therefore in wood smoke and also contribute flavors to other products such as whiskey and roasted coffee, giving descriptors that are depicted up here.
+
+181
+00:32:39,960 --> 00:32:45,960
+So kind of like smoky wadi, sweet and sometimes even clove like and vanilla spicy flavors.
+
+182
+00:32:48,960 --> 00:32:52,960
+So remember that we are still in this double category.
+
+183
+00:32:52,960 --> 00:33:01,960
+So on the flip side of emic, we have faulted misos with non standard sensory profiles that are considered undesirable.
+
+184
+00:33:01,960 --> 00:33:07,960
+This is an interesting section to do a little bit of troubleshooting, so feel free to drop in the comments.
+
+185
+00:33:07,960 --> 00:33:12,960
+What are some issues that you have encountered as faults in your misos, and we can discuss those later.
+
+186
+00:33:12,960 --> 00:33:28,960
+I'll kick things off with something that I expect that many of you have experienced before, and what I see a lot around me particularly when it comes to making very experimental misos, is the presence of compounds like ethyl acetate, which is an ester formed by the reaction of ethyl mal with acidic acid,
+
+187
+00:33:28,960 --> 00:33:35,960
+that can give your miso distinct and very persistent nail polish, remove or smell.
+
+188
+00:33:35,960 --> 00:33:45,960
+So this can happen for a range of reasons, and maybe you didn't add enough salt, maybe your miso is too wet or your Koji wasn't the most hygienic or ideal.
+
+189
+00:33:45,960 --> 00:33:56,960
+But I've also noticed that this is a particularly common problem with misos based on very sugar rich ingredients like pumpkin or cakes, since they naturally favor a more alcoholic fermentation.
+
+190
+00:33:56,960 --> 00:34:01,960
+If you then let in a lot of oxygen, you'll also get a lot of acidic acid.
+
+191
+00:34:01,960 --> 00:34:09,960
+The extent to which people are sensitive to the smell varies a lot. I've noticed in like sensory sessions or tastings as well.
+
+192
+00:34:09,960 --> 00:34:21,960
+This is a common issue that fermenters may face, and I would love to see more academic research on the topic, since to my knowledge there hasn't been any research dedicated to understanding and tackling this issue.
+
+193
+00:34:21,960 --> 00:34:29,960
+Having said that, there is of course a world, a plethora of academic works in Japan that aren't easily available for us in the west.
+
+194
+00:34:29,960 --> 00:34:38,960
+So if anyone knows about any resources on this topic, feel free to share it with the community.
+
+195
+00:34:38,960 --> 00:34:42,960
+So next we have category five, which is related.
+
+196
+00:34:42,960 --> 00:34:48,960
+So these products are defined by standard ingredients and non standard process and sensory profiles.
+
+197
+00:34:48,960 --> 00:34:58,960
+Here are products that are more often materially and or geographically close to the product in question, but made by assembling the same ingredients in different ways.
+
+198
+00:34:58,960 --> 00:35:06,960
+It ratios processing methods, etc. to yield different products with their own sensory profile and cultural significance.
+
+199
+00:35:06,960 --> 00:35:12,960
+This field also helps link different product frameworks to each other.
+
+200
+00:35:12,960 --> 00:35:17,960
+As we all know, fermented soybean paste has many varieties and has been used as a condiment for millennia.
+
+201
+00:35:17,960 --> 00:35:23,960
+It's not just in Japan as miso, but we also have other paste like dajang and china and dongjang in Korea.
+
+202
+00:35:23,960 --> 00:35:28,960
+The process of making dajang and dongjang are somewhat different from that of miso though.
+
+203
+00:35:28,960 --> 00:35:38,960
+Instead of koji made with the spores of aspergillis or izai, they both rely on spontaneous fermentation, the former with hobi and kyu and the latter with maju.
+
+204
+00:35:38,960 --> 00:35:49,960
+Although miso dajang and dongjang are used the same primary ingredients, soy, the different processes lead to distinct sensory profiles due to different treatments and microorganisms involved.
+
+205
+00:35:50,960 --> 00:36:04,960
+Despite the Japanese government's rather strict definition of miso, as previously mentioned, there are still some forms of miso that fall kind of outside of this traditional definition, often existing as very local specialities produced in small quantities.
+
+206
+00:36:04,960 --> 00:36:08,960
+Nishashi miso is a beautiful example of this.
+
+207
+00:36:08,960 --> 00:36:23,960
+It is made in Tokushima prefecture on shikoku, and it's made with soy beans that are fermented using a natural method of mold formation, using microorganisms in the environment similarly to maju.
+
+208
+00:36:23,960 --> 00:36:32,960
+The result is strong and unique, butchers like flavor coincidentally again, and high acidity that is very unusual in other traditional miso products.
+
+209
+00:36:32,960 --> 00:36:42,960
+Another example of a rare type of miso that will fall in this category is misodama made in the Nagano prefecture in the center of Japan.
+
+210
+00:36:42,960 --> 00:36:55,960
+Misodama is made similarly to Nishashi miso by crushing soy beans, rolling them into cylindrical shapes and allowing my saline to bloom, after which they are crushed and packed in barrels with koji and salt to ferment again.
+
+211
+00:36:55,960 --> 00:37:07,960
+Similarly to Nishashi miso, the sensory profile is more akin to cheese than standard misos, and this method was potentially born to save salt, which was then a very precious commodity.
+
+212
+00:37:08,960 --> 00:37:19,960
+So, category 6 are adjacent products that are defined by the standard ingredients and sensory profiles and non-standard processes.
+
+213
+00:37:19,960 --> 00:37:30,960
+Here we have products that are made often within the same culture and using the same ingredients as a product in question, yielding a similar sensory experience but made in a different way.
+
+214
+00:37:30,960 --> 00:37:37,960
+As with related products above, this one is a linking field and with other product frameworks.
+
+215
+00:37:37,960 --> 00:37:56,960
+So, the liquid condiment that is made to a two-step fermentation, so first a solid-stacked fermentation with koji, soy beans and toasted wheat, followed by salt and a secondary fermentation of this koji submerged in rai, which is called monomé.
+
+216
+00:37:57,960 --> 00:38:11,960
+And show you as a Jason to miso as they use similar ingredients and have similar umami sensory profile, though there are key differences in processing, such as the addition of water and the filtration step at the end of fermentation, which gives them their distinct characteristics.
+
+217
+00:38:11,960 --> 00:38:18,960
+So, the Chinese word for soy sauce, changmu means the liquid pressed from chang, and chang is the predecessor of miso.
+
+218
+00:38:18,960 --> 00:38:28,960
+And similarly in Japan, tamari translates to liquid drip and refers to the concentrated liquid that separates from miso during its fermentation.
+
+219
+00:38:28,960 --> 00:38:34,960
+This was Japan's byproduct of miso, and this first byproduct was long regarded as a high-class food.
+
+220
+00:38:35,960 --> 00:38:42,960
+So, producers found a way to produce more of the tamari, making the residual solids or tamari miso the byproduct.
+
+221
+00:38:42,960 --> 00:38:52,960
+This tamari show you is an early prototype of modern show you, and tamari would also be considered a Jason to miso in this framework.
+
+222
+00:38:53,960 --> 00:39:11,960
+So, the last category is another interesting one that was born more out of the theoretical exercise of making this Van diagram, where you have products that are made using standard sensory profile, but they don't use the standard ingredients and also not the standard sensory profile.
+
+223
+00:39:12,960 --> 00:39:17,960
+So, we decided to call this a category facsimile, which refers to a kind of counterfeit.
+
+224
+00:39:17,960 --> 00:39:36,960
+Here are products that are often industrial amitations of the traditional product, using different ingredients and processing methods that allow them to achieve similar enough sensory profiles, like kind of that people would sort of accept even within the originating culture as a version of the product in question.
+
+225
+00:39:37,960 --> 00:39:48,960
+And this category is often driven by commercial traditional miso fermentation is a lengthy process, which has a certain price tag, and there are also many consumers with limited financial means.
+
+226
+00:39:48,960 --> 00:39:58,960
+So, I don't think that the facsimile category is an inherently bad thing. However, it is good to be aware of what are the things that we are sacrificing in order to get a better price.
+
+227
+00:39:58,960 --> 00:40:06,960
+In the case of miso, some producers may ferment miso at an elevated temperature with a high proportion of Koji, allowing a faster enzymatic breakdown.
+
+228
+00:40:06,960 --> 00:40:19,960
+These quick misos, as they are defined in the book of miso, can be 20 to 30% cheaper, but they limit secondary metabolic processes, not allowing the miso to develop its full sensory or preservative properties.
+
+229
+00:40:19,960 --> 00:40:34,960
+And to emulate the sensory profile of traditional miso various chemicals such as MSG and preservatives and colorants may be added in addition to a pasteurization step, which prevents further fermentation and CO2 production.
+
+230
+00:40:34,960 --> 00:40:43,960
+I'm going to pop these all up real quick.
+
+231
+00:40:43,960 --> 00:40:51,960
+Yeah. So, those were the examples of the seven categories of miso according to the three F framework.
+
+232
+00:40:51,960 --> 00:41:06,960
+I hope that it was an insightful explanation, but more importantly that I, that the proposed naming conventions sit well with the community, and that we can all start integrating it into our communications about what we are making as part of this ongoing evolution of Koji con.
+
+233
+00:41:06,960 --> 00:41:17,960
+So, as I mentioned earlier in the presentation, some examples, they make more sense plays in multiple fields, depending on one's perspective and analytical priorities.
+
+234
+00:41:17,960 --> 00:41:38,960
+So, yeah, basically, for example, it may seem strange to put a miso product like Nessashi miso under related to miso, but this makes sense considering that the process and sensory profiles are divergent and more similar to those of other products that fall into the related category.
+
+235
+00:41:38,960 --> 00:41:43,960
+So, this is not necessarily a problem, but an opportunity for constructive discussions.
+
+236
+00:41:43,960 --> 00:41:58,960
+We hope that this framework is more of a tool to facilitate more nuanced and thoughtful conversations, and we're not trying to propose some sort of like a very strict and defined way that this product should be placed in certain categories.
+
+237
+00:41:58,960 --> 00:42:05,960
+It's all quite transient, and it's more about sort of facilitating this thought process.
+
+238
+00:42:05,960 --> 00:42:14,960
+So, yeah, if you'd like to discuss any of the examples that I bring up today, feel free to drop a comment or to get back at it later in the Koji con discord.
+
+239
+00:42:14,960 --> 00:42:20,960
+And on the topic of sort of facilitating conversation, there's one extra point that I would like to add.
+
+240
+00:42:20,960 --> 00:42:24,960
+In the paper itself, we also work out the framework for Gautam and cheese.
+
+241
+00:42:24,960 --> 00:42:33,960
+The paper, by the way, it's not out yet, it hasn't been officially published, but we do have it out on preprint, so I will share that in the discord after the presentation.
+
+242
+00:42:33,960 --> 00:42:43,960
+And I'm not going into the examples of Gautam and cheese all too much today, because it would be Russian things, and I would like to leave something new for you all to be able to read.
+
+243
+00:42:43,960 --> 00:42:59,960
+But I do want to maybe zoom into one category of Gautam to share a little hot take with you guys, since I know that Gautam is a recurrent topic in Koji con as well, and that many of you have enjoyed Jose de la Rosa's deep dive on it last week.
+
+244
+00:42:59,960 --> 00:43:24,960
+So as Jose de la Rosa explored during his talk in recent years, Gautam has experienced like a revival, but not only in its traditional fish based format searching for new ways to create flavor and exploring the umami potential of diverse ingredients, some have been using liquid based proteologists to make new forms of salt rich, umami oriented sauces, which many have opted to call Gautam.
+
+245
+00:43:24,960 --> 00:43:36,960
+So we are going to take this naming convention or the naming decision at face value and accommodate them in our framework as experimental since there is a standard process with non standard ingredients and sensory profiles.
+
+246
+00:43:36,960 --> 00:43:48,960
+These experimental practices are also largely inspired by no much inferential approach to fermentation in which Gautam can be made with a range of protein rich, often but not always animal based ingredients.
+
+247
+00:43:48,960 --> 00:43:54,960
+When combined with Koji and Brian, an aged at 60 degrees for a shortened period of time.
+
+248
+00:43:54,960 --> 00:44:03,960
+So important to note here that this is a relatively high temperature process which facilitates a lot of myard reaction but inhibits microbes.
+
+249
+00:44:03,960 --> 00:44:11,960
+So the products are not technically fermented and it also has a huge impact on the type of sensory profile that you get.
+
+250
+00:44:11,960 --> 00:44:24,960
+There is a paper from 2017 by Ola Monetson who is also in the European Eastern Institute's Board of Advisors and this paper is called Flavor of Fermented Fish Insect Game and Peace Sources, Gautam Revisited.
+
+251
+00:44:24,960 --> 00:44:33,960
+In the paper Ola analyzed a range of goulums made by the former Nordic food lab for their chemical, physical chemical and sensory characteristics.
+
+252
+00:44:34,960 --> 00:44:46,960
+One of the samples was a sauce based on yellow split peas and Ola noted that it made less sense to call this a gaurum as in terms of ingredients, process and sensory profile it was more akin to assure you.
+
+253
+00:44:46,960 --> 00:45:00,960
+While historically many fermented sauces based on animal and plants have shared origins since they have evolved into different products with distinct traditions and sensory profiles since that time.
+
+254
+00:45:00,960 --> 00:45:08,960
+So now with gastronomic innovation leading to further mixing of traditional ingredients.
+
+255
+00:45:08,960 --> 00:45:19,960
+Some ambiguous cases are reemerging, for example, better to call a novel, proteolyse, salt-rich, umami-oriented sauce, egg-allum or a shoyu.
+
+256
+00:45:20,960 --> 00:45:40,960
+Building on our three-part description of gaurum, which is in the paper, our proposal is for differentiating gaurum and shoyu, which is a particularly salient case, an experimental and analogue cases, would be to use the term gaurum when the primary substrate is of animal origin and shoyu when it is of plant origin.
+
+257
+00:45:40,960 --> 00:45:45,960
+There are of course some ambiguous cases such as, for example, certain fungi-based sauces.
+
+258
+00:45:45,960 --> 00:45:53,960
+There we can add an additional dimension of distinction, which relates to the process and resulting sensory profile.
+
+259
+00:45:53,960 --> 00:46:09,960
+So we would define a gaurum as being associated with a predominantly umami and my yard-driven flavor profile, which may arise from an elevated incubation temperature or a long aging with a very high salt content like 20% or above.
+
+260
+00:46:10,960 --> 00:46:23,960
+And on the other hand, show you while also salty umami and having some roasted notes. Usually it also has a more acidic and aromatic character due to the growth of osmophilic yeast and lactic acid bacteria.
+
+261
+00:46:23,960 --> 00:46:28,960
+And it may also have some more sweetness due to the presence of starches that are converted into sugars.
+
+262
+00:46:28,960 --> 00:46:39,960
+So that was my little hot take on experimental gaurum. I'm curious to know whether the community agrees with this distinction, but also importantly whether it is helpful at all.
+
+263
+00:46:39,960 --> 00:46:45,960
+And if not, I would love to hear why in the comments or in the discord.
+
+264
+00:46:45,960 --> 00:46:53,960
+So to recap what we have learned during this talk, fermented foods are diversifying through innovation, globalization and researches.
+
+265
+00:46:54,960 --> 00:47:01,960
+As a whole, this can be seen as a positive development that I'm sure everyone here at Kojikon is contributing to in their own way.
+
+266
+00:47:01,960 --> 00:47:07,960
+At the same time, we also live in a world where many traditional products are at risk of extinction and devaluation.
+
+267
+00:47:07,960 --> 00:47:22,960
+And during this presentation, we have summarized and analyzed some of the diversity of miso, a very clear example of a fermented product that is having its future shaped by these concurrent and complex forces that are also shaping astronomy as a whole.
+
+268
+00:47:22,960 --> 00:47:35,960
+So despite having a lot to offer analytically, this framework, as with any, can of course never be all encompassing, and there will always be both exceptions and disagreements around categorization, depending on the user's frame of reference.
+
+269
+00:47:35,960 --> 00:47:40,960
+However, as I mentioned earlier, we do not necessarily see this as a limitation.
+
+270
+00:47:40,960 --> 00:47:49,960
+Our goal is to offer a tool that can facilitate new ones and inclusive discussions, but not to offer one conclusive way to that the tool should be used.
+
+271
+00:47:49,960 --> 00:47:59,960
+If the framework helps advance new discussions around conceptualization of foods, even by allowing for multiple interpretations, then it has succeeded.
+
+272
+00:47:59,960 --> 00:48:09,960
+So another risk that we have spent considerable time discussing and to keep ourselves sharp and critical of what we were doing was the risk of essentialism and historical simplification.
+
+273
+00:48:09,960 --> 00:48:28,960
+So for example, by relying on some sort of a historical baseline to establish the standard by which the traditional and subplot of consequently all fields are to be conceptualized, the risk, there is a risk of simplifying and even flattening the history by which these products have developed, especially prior to these baselines.
+
+274
+00:48:28,960 --> 00:48:41,960
+So thankfully, the related and adjacent fields that link our framework with products connected in the past and present are actually sort of nudges us in the directions of exploring these shared histories.
+
+275
+00:48:41,960 --> 00:48:50,960
+So with this presentation, I hope to promote the inclusion of innovative products alongside their traditional counterparts,
+
+276
+00:48:50,960 --> 00:49:07,960
+valorizing each while also celebrating what makes them distinct. To produce this and petitioners, the framework offers a tool to help understand the broader context by which their products are received and interpreted within, as well as some of the many ways that products can be described and framed.
+
+277
+00:49:07,960 --> 00:49:24,960
+In the paper, we've also synthesized some of the technical and food science considerations for how to differentiate different kinds of products in order to give fermenters a way to anticipate some of the practical constraints and implications of innovating their products one way or another.
+
+278
+00:49:24,960 --> 00:49:34,960
+So another important aim of this presentation was to indicate what is at stake socially, politically, ethically and economically in the naming of novel foods one way or the other.
+
+279
+00:49:34,960 --> 00:49:45,960
+As we've seen, old foods will inevitably take on new forms and tradition will inevitably meet transformation. In fact, we can even state that these two are mutually reliant.
+
+280
+00:49:45,960 --> 00:49:54,960
+So with that being said, let's all take a both-end approach to gastronomy, innovation and tradition, study and practice past and future.
+
+281
+00:49:54,960 --> 00:50:03,960
+That is all that I have for you guys today. Thank you for joining and I hope that you really enjoyed the talk and I'm very much looking forward to seeing the comments.
+
+282
+00:50:04,960 --> 00:50:18,960
+So, Emil, thank you so much. I have once again just like a full page of notes from everything that you were saying today.
+
+283
+00:50:18,960 --> 00:50:32,960
+This was really insightful presentation. I love that you shared the framework. I think like knowledge is power and just like knowing how to label these things is not only going to append to the world.
+
+284
+00:50:32,960 --> 00:50:49,960
+Not only going to benefit like the communities who are interacting with these foods but also benefit the producers because if you have like a proper label for it's going to be easier for like regulators to be able to improve your product. So thank you for sharing all of this.
+
+285
+00:50:49,960 --> 00:50:54,960
+Yeah, I'm very glad to. Thanks for your comments.
+
+286
+00:50:55,960 --> 00:51:10,960
+I have a so one quick question for us to get started. So you're looking for like community feedback from the community on the framework for the framework. What's the best way that folks can interact with you about that?
+
+287
+00:51:11,960 --> 00:51:25,960
+I guess for now the easiest way would be in the comments if they're here, but if not, they can go to our website and we have a contact form there or they can contact me directly at a meal at user institute.eu.
+
+288
+00:51:25,960 --> 00:51:33,960
+Yeah, and I hope that there will also be some nice live events throughout the year that we can sort of meet up that as well.
+
+289
+00:51:33,960 --> 00:51:50,960
+Gotcha. Perfect. All right. So one question that I had. So throughout like all of these different frameworks. So you were mentioning like standard and nonstandard.
+
+290
+00:51:51,960 --> 00:52:04,960
+So when I was thinking so like all of these like traditional or standard products had to start out like from something they evolved from like different practices to lead to something that we now consider standard.
+
+291
+00:52:04,960 --> 00:52:13,960
+And your opinion or like through the opinion of your framework, when does something become like a standard ingredient or a standard process?
+
+292
+00:52:13,960 --> 00:52:22,960
+So that's a very good question. Thank you for that. In the opinion of the framework and me as well, I think that things become a standard.
+
+293
+00:52:22,960 --> 00:52:34,960
+The moment that there was like a general agreement within the culture. So you know, when we maybe in his historically speaking, there might have been a lot of sort of compartmentalization.
+
+294
+00:52:34,960 --> 00:52:44,960
+We didn't have the internet and all these different ways of interconnectivity. So I feel like back then maybe you know the way that one region might define me.
+
+295
+00:52:44,960 --> 00:52:56,960
+So it would be very different from another region. But nowadays, you know, with the world being a lot more globalized. It feels like there is in most cases, there's going to be like sort of a baseline that everyone would agree with.
+
+296
+00:52:56,960 --> 00:53:03,960
+And then maybe some other projects products that others would say like, I don't know if that really counts for me.
+
+297
+00:53:03,960 --> 00:53:10,960
+And that's that's kind of difficult because if you create a product and someone is telling you like, I don't know whether I would consider that a miso.
+
+298
+00:53:10,960 --> 00:53:20,960
+But you've made it sort of through the process of making a miso and you're very happy with it. Then that sort of devaluates it into what? Like what is it then?
+
+299
+00:53:20,960 --> 00:53:29,960
+I guess you could say a minopaste, you know, there's other terms that we can use. But yeah, from now on, I think it would be nice if we can say, hey, look at this analog.
+
+300
+00:53:29,960 --> 00:53:33,960
+So this experimental.
+
+301
+00:53:33,960 --> 00:53:36,960
+Awesome.
+
+302
+00:53:36,960 --> 00:53:42,960
+All right. So I have this question from Rob. And so I'm just going to pull this up on the screen.
+
+303
+00:53:42,960 --> 00:53:53,960
+So I wonder how you think this framework could interface with the protected designation of origin system, which many producers have found siphoning.
+
+304
+00:53:53,960 --> 00:53:59,960
+So I think the system you proposed here could be a better, could be a better system to that.
+
+305
+00:53:59,960 --> 00:54:11,960
+Yeah, absolutely. So the PDO system within Europe, it doesn't apply to miso actually. And in Japan, they have their own system.
+
+306
+00:54:11,960 --> 00:54:25,960
+But I don't think that their system applies here within Europe. But either way, you know, the fact that these systems, they are indeed super strict and they do not really facilitate a lot of change.
+
+307
+00:54:25,960 --> 00:54:31,960
+You know, the way that Parmesan has been made is very, has to be made is very strictly defined.
+
+308
+00:54:31,960 --> 00:54:42,960
+But we are dealing here with a type of fermentation that doesn't want to be too strictly defined. It wants to be a little free, especially in order to be able to deal with maybe certain
+
+309
+00:54:42,960 --> 00:54:54,960
+abundance of certain ingredients, try to experiment with certain side strings in order to reduce waste. These are the things that makes as per Shilis or is I like a very strong our house.
+
+310
+00:54:54,960 --> 00:54:59,960
+The fact that it has diverse amounts of enzymes that can break down a lot of different products.
+
+311
+00:54:59,960 --> 00:55:10,960
+So yeah, having a sort of system like this that accommodates that, I agree, Robin would fit a lot better. So thanks.
+
+312
+00:55:10,960 --> 00:55:25,960
+Awesome. All right. So during your presentation, you told folks to toss some like miso that they've been having trouble with into the chat. So I'm going to throw a couple of those up in there.
+
+313
+00:55:25,960 --> 00:55:32,960
+So this is from Mac pumpkin miso's tend to go wild. Why do you think that might be case?
+
+314
+00:55:32,960 --> 00:55:41,960
+Yeah, pumpkin miso's do tend to go wild. Yeah, that's why with pumpkin miso, I tend to stick to like a shorter fermentation usually.
+
+315
+00:55:41,960 --> 00:55:59,960
+So as I mentioned during the talk in my experience, it's especially when you have a lot of sugar that is present. So in a pumpkin miso, but at the restaurant where I used to work, we also occasionally made miso out of cake by growing Koji directly on the cake because we worked with the local bakery.
+
+316
+00:55:59,960 --> 00:56:05,960
+Where they make like these squares and then they cut off the edges and they don't know what to do with these edges.
+
+317
+00:56:05,960 --> 00:56:12,960
+And those misos also sometimes they tend to go into this like nail polish direction.
+
+318
+00:56:12,960 --> 00:56:22,960
+So my theory about it is that it has to do with like a lot of alcoholic fermentation occurring along with maybe some acetic fermentation.
+
+319
+00:56:22,960 --> 00:56:27,960
+And that's where you can get these until acetate and these other compounds.
+
+320
+00:56:27,960 --> 00:56:35,960
+Another thing that could happen sometimes if you have a miso that is very wet is that a lot of yeast will start growing.
+
+321
+00:56:35,960 --> 00:56:42,960
+And they will kind of reach like a level where there's way too many yeast for the amount of substrate present.
+
+322
+00:56:42,960 --> 00:56:54,960
+And then they these yeast they experience stress. And when they go into like their stress metabolism, they can also start producing compounds that can be perceived as off flavors as well.
+
+323
+00:56:54,960 --> 00:56:58,960
+So those are two mechanisms I've identified at least.
+
+324
+00:56:59,960 --> 00:57:05,960
+Oh, okay, so this is going to be more like a scientific question.
+
+325
+00:57:05,960 --> 00:57:21,960
+So this is from Melissa from Melissa. So it's particularly interested in how or if Koji makes phytoneutrients more bio available, which would seem like a good reason for expanding like seeds, greens that are often used in novel misos.
+
+326
+00:57:21,960 --> 00:57:36,960
+Yeah. So phytoneutrients are not something that I specifically specialize in a lot, but I do know that besides you know we always talk about protease amylase and light paste.
+
+327
+00:57:36,960 --> 00:57:43,960
+Those are like the tree enzymes that if you try to explain to someone what aspergius or is I can do what we tend to refer to.
+
+328
+00:57:43,960 --> 00:58:07,960
+But yeah, there's like over 40 different enzymes, I believe, that can be produced by aspergius and has Elliott discussed in his talk, even through bioengineering, you can even introduce new specific enzymes and try to like change the metabolism in a way that you're extracting the most out of your specific substrate that you are working with.
+
+329
+00:58:07,960 --> 00:58:35,960
+So I definitely think that there is a lot of potential there when it comes to novel misos, though it's if the idea with the phytoneutrients is also to be able to produce like a specific claim, which is something that a lot of at least big food producers are always trying to find like, oh, where can we find a health claim, but it's very difficult actually, at least in the European regulatory environment to to to stay like a super strong specific claim onto a product.
+
+330
+00:58:35,960 --> 00:58:44,960
+But still nevertheless, I mean, we know ourselves that it is healthy for us to consume. So I guess that's what matters most.
+
+331
+00:58:44,960 --> 00:59:01,960
+Gotcha. Sweet. Oh, and then this is another great question I was also thinking of. So what year would this framework work with things like with other products that have like these sort of like broad categories and types like beers or coffees or even like wines, for example.
+
+332
+00:59:02,960 --> 00:59:12,960
+Yeah, thank you for that question, Mack. So definitely the idea of the framework we've used these three different examples each for specific reasons.
+
+333
+00:59:12,960 --> 00:59:18,960
+Me so obviously because we are at European Niso Institute and we really believe in it and we want to sort of highlight it.
+
+334
+00:59:18,960 --> 00:59:29,960
+Garam was an interesting case because of its like resurgence now, but in fact this originating culture, which we refer to a lot in the framework is has disappeared.
+
+335
+00:59:29,960 --> 00:59:42,960
+It's the ancient Roman Empire, which is no longer in existence today. And then cheese was an interesting one because it has these like very strong strict definitions of what is a cheese.
+
+336
+00:59:42,960 --> 00:59:54,960
+And there we actually also had some some very interesting realization that what is often referred to as analog cheese, which are these cheeses based on starches and coconut oil to us.
+
+337
+00:59:54,960 --> 01:00:06,960
+They would be a proximity cheese and an analog cheese would be a more artisanal may cheese with where you go through the process of creating like a nut milk, for example, fermenting it, curdling it.
+
+338
+01:00:06,960 --> 01:00:18,960
+So yeah, also a lot of richness there, but the framework we I've already tried with some friends in the beer industry actually wants to like sort of try to see how it applies to beer.
+
+339
+01:00:18,960 --> 01:00:32,960
+And it does work for coffee I haven't tried it. I don't know whether there is enough like have for coffee like I guess there are actually also analog coffees such as with dandelion, and so on.
+
+340
+01:00:32,960 --> 01:00:45,960
+And there will be something there, but actually at the kind of value that the missus, which is another really really cool fermentation festival in the Netherlands with a nice community.
+
+341
+01:00:45,960 --> 01:01:01,960
+There I had a talk also relating to this framework and there was actually a guy that does like a lot of tea research and he yeah he makes his own tea and trades and tea and so on and he specialized in fermented teas.
+
+342
+01:01:01,960 --> 01:01:12,960
+And he also brought us some fermented tea that could be eaten. So I also started discussing with him that how well this framework would actually apply to tea as well.
+
+343
+01:01:12,960 --> 01:01:19,960
+And that he was very excited that we were bringing this out into the world because he does often struggle with like how to get position.
+
+344
+01:01:19,960 --> 01:01:30,960
+So if you have a position in the eating tea leaf that you're supposed to eat versus like a fermented tea based on Camelia sinenses or desalas or different herbs.
+
+345
+01:01:30,960 --> 01:01:43,960
+So yeah, I'm excited to see if there's people out there that want to use our framework and apply it to their own fields that they are specialized in.
+
+346
+01:01:43,960 --> 01:01:46,960
+Awesome. Thanks for that answer. That was fantastic.
+
+347
+01:01:46,960 --> 01:01:48,960
+No worries.
+
+348
+01:01:48,960 --> 01:01:50,960
+Awesome.
+
+349
+01:01:50,960 --> 01:01:53,960
+All right. All right.
+
+350
+01:01:53,960 --> 01:01:58,960
+So I think we are.
+
+351
+01:01:58,960 --> 01:02:07,960
+Oh, yeah, I think we're looking pretty good on questions right now.
+
+352
+01:02:07,960 --> 01:02:14,960
+I mean, one question that I had to sort of wrap up the afternoon today.
+
+353
+01:02:14,960 --> 01:02:21,960
+So what are like, where do you see the European Meso Institute?
+
+354
+01:02:21,960 --> 01:02:25,960
+Let's say like at the end of this year and let's say like five years down the road.
+
+355
+01:02:25,960 --> 01:02:28,960
+What are your goals for your organization?
+
+356
+01:02:28,960 --> 01:02:30,960
+Thanks for that question, Eric.
+
+357
+01:02:30,960 --> 01:02:40,960
+So right now we are at a point with the European Meso Institute that we are actually trying to establish as an official organization.
+
+358
+01:02:40,960 --> 01:02:49,960
+So we are so far we've operated more as like grassroots where we just have a group of people and we all agree that we are an organization.
+
+359
+01:02:49,960 --> 01:02:56,960
+So we go based on this mutual belief, but there is no official registration anywhere yet.
+
+360
+01:02:56,960 --> 01:03:07,960
+And you know, we decided to do this because yeah, we didn't want to get to stock up on the idea of funding or trying to have to create like a business model behind it or something like that.
+
+361
+01:03:07,960 --> 01:03:23,960
+But now we are reaching a point where we realize that not having an official registration has certain limitations when it comes to organizing events or maybe joining in on bigger research projects that are linked to maybe European subsidies.
+
+362
+01:03:23,960 --> 01:03:28,960
+So that is something that we hope to have done by the end of this year for sure.
+
+363
+01:03:28,960 --> 01:03:43,960
+And then within five years, I'm hoping that the European Meso Institute would have like strong connections with different universities where we try to link actually Meso producers to universities in order to facilitate knowledge.
+
+364
+01:03:43,960 --> 01:03:53,960
+But also, I hope that at that point because now we're really focusing on the academic part that we will be focusing more on doing things for like consumers.
+
+365
+01:03:53,960 --> 01:04:08,960
+So maybe some consumer research, having collaborations with chefs where we create like simple sort of concepts around how to cook with mesos that people can start applying and maybe even creating a cookbook or something like that.
+
+366
+01:04:08,960 --> 01:04:15,960
+So that's my idea that's been sort of bubbling in my head recently that I'd like to discuss with our group.
+
+367
+01:04:15,960 --> 01:04:18,960
+So yeah, very a lot of different things.
+
+368
+01:04:18,960 --> 01:04:29,960
+So we try to operate on these sort of different fields of being a bit focused on academics, a bit focused on the producers, chefs, but then also consumers.
+
+369
+01:04:29,960 --> 01:04:48,960
+Yeah, that's it. We will grow on to a bigger organization as well with with many members and where we can have maybe some more direct link with with the producers in a way that we can really support them and to grow this industry together.
+
+370
+01:04:48,960 --> 01:04:58,960
+Awesome. Thank you. That was a great answer. I just love like how your organization values education and open sharing this of knowledge.
+
+371
+01:04:58,960 --> 01:05:07,960
+The only way that everyone benefits is if more of this information is available to everyone. So I really appreciate you sharing that and the mission of the European Meso Institute.
+
+372
+01:05:07,960 --> 01:05:17,960
+Yeah, for sure. I mean, you guys also do a really good job at that at the yellow farmhouse. So thank you to you as well for organizing this beautiful conference every year.
+
+373
+01:05:17,960 --> 01:05:33,960
+Okay. Alrighty. So I mean, once again, thank you so much. And for folks in the chat, you can follow a meal's journeys on his Instagram, a meal's food adventures, as well as the European Meso Institute, their Instagram right over here.
+
+374
+01:05:33,960 --> 01:05:42,960
+I'm going to be sure to check out the Meso Institute database. I have that linked up right here. And it's also in our Discord channel and the resources channel.
+
+375
+01:05:42,960 --> 01:05:45,960
+So be sure to check out. Be sure to check that out as well.
+
+376
+01:05:45,960 --> 01:05:46,960
+All right.
+
+377
+01:05:46,960 --> 01:05:53,960
+Meal, once again, thank you so much. I'll remove you from the stream and then we'll wrap up this wrap up today session.
+
+378
+01:05:53,960 --> 01:05:57,960
+All right. Thank you very much, Eric. And thanks everyone. See you.
+
+379
+01:05:57,960 --> 01:06:05,960
+Alrighty. That wraps up once again, another fantastic presentation for KojiCon 2025.
+
+380
+01:06:05,960 --> 01:06:11,960
+Tradition means transformation. Amel, thank you so much for sharing all of that with us today.
+
+381
+01:06:11,960 --> 01:06:17,960
+Tomorrow, we have a few more presentations. We'll have three presentations tomorrow.
+
+382
+01:06:17,960 --> 01:06:28,960
+So at 9 a.m. Eastern standard time, we're going to be joined by Daniel Wynn for presentation title Vietnam under the microscope exploring Vietnam's fermentation traditions in modern innovation.
+
+383
+01:06:28,960 --> 01:06:39,960
+At 11 a.m. Eastern standard time will be joined by avert shape, avert shape in for a presentation called Lambic meets Koji exploring Koji and spontaneous fermentation.
+
+384
+01:06:39,960 --> 01:06:50,960
+So be sure to tune into that. And then at 2 p.m. Eastern standard time will be joined by Melissa Hoffman for presentation called living tradition, shaping future foodways to intimacy with the place.
+
+385
+01:06:50,960 --> 01:06:57,960
+So be sure to tune in to all of those tomorrow at 9 a.m. 11 a.m. and 2 p.m. Eastern standard time.
+
+386
+01:06:57,960 --> 01:07:08,960
+And as always, if you want to learn more about what we're doing over here at the Yellow Farmhouse Education Center, you can check out our website at yellowfarmhouse.org as well as our Instagram at Yellow Farm CT.
+
+387
+01:07:08,960 --> 01:07:16,960
+If you want to stay up to date on all things KojiCon, be sure to follow the KojiCon Instagram account at Koji.com.
+
+388
+01:07:16,960 --> 01:07:23,960
+If you have any questions at all about the conference, feel free to reach out to us at info at yellowfarmhouse.org.
+
+389
+01:07:23,960 --> 01:07:27,960
+Either myself or Haley will be able to get back to you and answer any questions that you might have.
+
+390
+01:07:27,960 --> 01:07:34,960
+So with that, I will sign off for today and I'm looking forward to seeing everyone tomorrow. Peace.
