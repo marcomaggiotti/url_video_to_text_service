@@ -5,7 +5,8 @@ YouTube Audio + Whisper STT Downloader (Production Fixed)
 
 import time
 from dataclasses import dataclass
-from typing import List, Tuple
+from difflib import SequenceMatcher
+from typing import List, Tuple, Optional
 from pathlib import Path
 import re
 import os
@@ -13,7 +14,7 @@ import yt_dlp
 import whisper
 import faster_whisper
 from pydantic import BaseModel
-
+import logging
 
 @dataclass
 class SRTMatch:
@@ -47,6 +48,107 @@ class Config:
         self.audio_dir.mkdir(parents=True, exist_ok=True)
         self.transcript_dir.mkdir(parents=True, exist_ok=True)
 
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+@dataclass
+class SentenceTimestamp:
+    """Sentence-level timestamp (not word-level)"""
+    filename: str
+    text: str
+    start_time: str
+    end_time: str
+
+
+class TimeConverter:
+    """Time format conversions"""
+
+    @staticmethod
+    def to_seconds(time_str: str) -> float:
+        """HH:MM:SS,mmm → seconds"""
+        try:
+            h, m, s = time_str.replace(',', '.').split(':')
+            return int(h) * 3600 + int(m) * 60 + float(s)
+        except:
+            return 0.0
+
+    @staticmethod
+    def to_srt_format(seconds: float) -> str:
+        """seconds → HH:MM:SS"""
+        h, m, s = int(seconds // 3600), int((seconds % 3600) // 60), int(seconds % 60)
+        return f"{h:02d}:{m:02d}:{s:02d}"
+
+class SRTParser:
+    """Parse SRT → sentence-level timestamps (1 timestamp per SRT block)"""
+
+    def __init__(self):
+        self.time_converter = TimeConverter()
+
+    def parse(self, srt_file: str) -> List[SentenceTimestamp]:
+        """Parse SRT: 1 timestamp per subtitle block (sentence-level)"""
+        logger.info(f"Parsing SRT: {srt_file}")
+
+        with open(srt_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        blocks = [b.strip() for b in content.split('\n\n') if b.strip()]
+        sentence_timestamps = []
+
+        for block in blocks:
+            ts = self._parse_srt_block(block, srt_file)
+            if ts:
+                sentence_timestamps.append(ts)
+
+        logger.info(f"→ {len(sentence_timestamps)} sentence timestamps")
+        return sentence_timestamps
+
+    def _parse_srt_block(self, block: str,  filename: str) -> Optional[SentenceTimestamp]:
+        """Parse single SRT block → 1 SentenceTimestamp"""
+        lines = [line.strip() for line in block.splitlines() if line.strip()]
+        if len(lines) < 3:
+            return None
+
+        timestamp_line = lines[1]
+        if ' --> ' not in timestamp_line:
+            return None
+
+        try:
+            start_str, end_str = timestamp_line.split(' --> ')
+            start_sec = self.time_converter.to_seconds(start_str)
+            end_sec = self.time_converter.to_seconds(end_str)
+
+            # Join subtitle text (multi-line OK)
+            text = ' '.join(lines[2:])
+            return SentenceTimestamp(filename= filename, text=text, start_time=start_sec, end_time=end_sec)
+        except:
+            return None
+
+    def get_timestamps_of_text(self, chunk: str,  srt_list: List[SentenceTimestamp], previous_timestamp: float, start_index: int) :
+
+        sentences = re.split(r'(?<=[.!?])\s+', chunk.strip())[:2]
+        chunk_start = re.sub(r'\s+', ' ', ' '.join(sentences)).strip()
+        best_time, best_score = None, 0
+
+        current_index = start_index
+
+        for i, st in enumerate(srt_list[start_index:], start_index):
+            srt_text = re.sub(r'\s+', ' ', st.text.strip())
+
+            if (st.text.lower() in chunk.lower() and previous_timestamp < st.start_time):
+                return st.start_time, i
+
+            score = SequenceMatcher(None, st.text.lower(), chunk_start.lower()).ratio()
+
+            if score > best_score and score > 0.75:
+                best_score = score
+                best_time = st.start_time
+
+        return best_time, current_index
+
+        for index in srt_list:
+            if chunk in index.text :
+                return index.start_time
 
 def extract_video_id(url: str) -> str:
     """Extract video ID (unchanged)."""
