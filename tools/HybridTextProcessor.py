@@ -10,7 +10,7 @@ from pathlib import Path
 import re
 from langchain_experimental.text_splitter import SemanticChunker
 
-from src.tools.srt_tools import SRTParser
+from tools.srt_tools import SRTParser
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -71,14 +71,14 @@ class HybridTextProcessor:
         return chunks
 
     # def process_txt(self, txt_file: str, srt_file: str, video_id: str, metadata: dict) -> List[dict]:
-    def process_srt(self, txt_file: str, video_id: str) -> List[dict]:
+    def process_srt(self, srt_file: str, video_id: str) -> List[dict]:
         """Pipeline: TXT → chunks → align SRT sentences → enrich"""
 
         logger.info(f"Processing {video_id}")
-        whole_srt = Path(txt_file).read_text(encoding='utf-8')
+        whole_srt = Path(srt_file).read_text(encoding='utf-8')
         sentences = self.extract_clean_text_from_transcript(whole_srt)
         # 1. TXT → semantic chunks
-        with open(txt_file, 'r', encoding='utf-8') as f:
+        with open(srt_file, 'r', encoding='utf-8') as f:
             full_text = f.read()
 
         chunks = self.semantic_chunker.split_text(full_text)
@@ -89,7 +89,7 @@ class HybridTextProcessor:
 
         # 3. Align
         timestamped_chunks = self.chunk_aligner.align(chunks, sentence_timestamps, full_text)
-
+        metadata =  []
         # 4. Enrich metadata
         return self._enrich_chunks(timestamped_chunks, video_id, metadata)
 
