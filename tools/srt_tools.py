@@ -135,8 +135,10 @@ class SRTParser:
         for i, st in enumerate(srt_list[start_index:], start_index):
             srt_text = re.sub(r'\s+', ' ', st.text.strip())
 
-            if (st.text.lower() in chunk.lower() and previous_timestamp < st.start_time):
+            if (is_substring_overlap(chunk, st.text) and previous_timestamp < st.start_time):
                 return st.start_time, i
+
+
 
             score = SequenceMatcher(None, st.text.lower(), chunk_start.lower()).ratio()
 
@@ -150,12 +152,11 @@ class SRTParser:
             if chunk in index.text :
                 return index.start_time
 
-def extract_video_id(url: str) -> str:
-    """Extract video ID (unchanged)."""
-    match = re.search(r'(?:v=|\/)([0-9A-Za-z_-]{11})', url)
-    if not match:
-        raise ValueError(f"Invalid URL: {url}")
-    return match.group(1)
+def extract_youtube_id(file_name: str) -> str:
+    """Estrae YouTube ID da filename (ultimi 11 chars)"""
+    # Pattern: filename_XXXXXXXXXXX.txt → XXXXXXXXXXX
+    match = re.search(r'_([a-zA-Z0-9_-]{11})\.(txt|srt|webm)$', file_name)
+    return match.group(1) if match else "unknown"
 
 
 def safe_filename(name: str) -> str:
@@ -275,8 +276,8 @@ def transcribe_audio(audio_file: str, output_dir: str = "transcripts",
     config.transcript_dir = Path(output_dir)
 
     safe_name = safe_filename(audio_path.stem)
-    srt_file = config.transcript_dir / f"{safe_name}_whisper.srt"
-    txt_file = config.transcript_dir / f"{safe_name}_whisper.txt"
+    srt_file = config.transcript_dir / f"{safe_name}.srt"
+    txt_file = config.transcript_dir / f"{safe_name}.txt"
 
     # Skip if exists
     if (srt_file.exists() and txt_file.exists() and
@@ -318,6 +319,31 @@ def download_video_to_txt(video_url: str, output_dir: str = "downloads",
     print(f"Whisper TXT: {whisper_txt}")
 
     return audio_file, whisper_srt, whisper_txt
+
+
+def is_substring_overlap(s1_long, s2_short):
+    """Controlla se s2 è substring di s1 → 100%, altrimenti % longest match"""
+
+    # Check esatto (case-insensitive)
+    if s2_short.lower() in s1_long.lower():
+        return "100% - Completamente contenuta"
+
+    # Longest Common Substring (LCS)
+    def lcs_percent(a, b):
+        m, n = len(a), len(b)
+        dp = [[0] * (n + 1) for _ in range(m + 1)]
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                if a[i - 1].lower() == b[j - 1].lower():
+                    dp[i][j] = dp[i - 1][j - 1] + 1
+                else:
+                    dp[i][j] = max(dp[i][j - 1], dp[i - 1][j])
+
+        max_match = max(max(row) for row in dp)
+        return round((max_match / len(b)) * 100, 1)
+
+    return f"{lcs_percent(s1_long, s2_short)}%"
 
 # =============================================================================
 # CLI (unchanged)

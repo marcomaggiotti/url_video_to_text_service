@@ -65,15 +65,13 @@ class ChunkResponse(BaseModel):
 
 class VectorDBReadyResponse(BaseModel):
     chunks: List[ChunkResponse]
-    video_id: str
-    total_chunks: int
 
 settings = Settings()
 embeddings = SentenceTransformerEmbeddings("all-MiniLM-L6-v2")
 semantic_splitter = SemanticChunker(
         embeddings=embeddings,
         breakpoint_threshold_type="percentile",
-        breakpoint_threshold_amount=75,
+        breakpoint_threshold_amount=82,
         buffer_size = 2,
         min_chunk_size=150
     )
@@ -152,7 +150,7 @@ async def extract_video_to_text(
 
     return FilesResponse(webm=webm, srt=srt, text=text)
 
-@app.get("/split-transcript-to-chunks", response_model=FilesResponse)
+@app.get("/split-transcript-to-chunks", response_model=VectorDBReadyResponse)
 async def get_split_transcript_to_chunks(file_name: str = Query(..., description="YouTube/Direct video URL")):
 
     chunks_data = []
@@ -160,8 +158,8 @@ async def get_split_transcript_to_chunks(file_name: str = Query(..., description
     txt_path  = downloads_folder / file_name
 
     file_base = txt_path.stem
-    name_part, video_id = file_base.rsplit("_", 1)
-    name_with_underscores = name_part.replace(" ", "_")
+    video_id = extract_youtube_id(file_name)
+    name_with_underscores = file_name.replace(f"_{video_id}.txt", "").replace(" ", "_")
 
     processor = HybridTextProcessor(
         semantic_chunker=semantic_splitter,
@@ -179,7 +177,7 @@ async def get_split_transcript_to_chunks(file_name: str = Query(..., description
         sentence_timestamps = srt_parser.parse(srt_file_name)
 
         # This need to change as I will retrieve the chunks from the service
-        yt_emb_mixedbread = model_mixedBread.encode(txt_chunks)
+        #yt_emb_mixedbread = model_mixedBread.encode(txt_chunks)
 
         previous_timestamp = - 1.0
         index_sentence_timestamps = 0
@@ -213,12 +211,8 @@ async def get_split_transcript_to_chunks(file_name: str = Query(..., description
             chunks_data.append(chunk_data)
 
     return VectorDBReadyResponse(
-        chunks=chunks_data,
-        video_id=video_id,
-        total_chunks=len(chunks_data)
+        chunks=chunks_data
     )
-
-
 
 @app.post("/agent/analyze")
 async def analyze_video_agent(
