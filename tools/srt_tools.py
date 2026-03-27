@@ -12,7 +12,6 @@ import re
 import os
 import yt_dlp
 import whisper
-import faster_whisper
 from pydantic import BaseModel
 import logging
 
@@ -224,7 +223,7 @@ def download_audio(video_url: str, output_dir: str = "downloads") -> str:
     """Download audio - robust detection (unchanged signature)."""
     config = Config()
     config.audio_dir = Path(output_dir)
-    video_id = extract_video_id(video_url)
+    video_id = extract_youtube_id(video_url)
     print(f"🎯 Target: {video_id}")
 
     # Extracted find_audio_files logic
