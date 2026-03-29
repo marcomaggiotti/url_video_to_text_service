@@ -14,6 +14,7 @@ import yt_dlp
 import whisper
 from pydantic import BaseModel
 import logging
+from urllib.parse import urlparse, parse_qs
 
 @dataclass
 class SRTMatch:
@@ -151,11 +152,30 @@ class SRTParser:
             if chunk in index.text :
                 return index.start_time
 
-def extract_youtube_id(file_name: str) -> str:
-    """Estrae YouTube ID da filename (ultimi 11 chars)"""
-    # Pattern: filename_XXXXXXXXXXX.txt → XXXXXXXXXXX
-    match = re.search(r'_([a-zA-Z0-9_-]{11})\.(txt|srt|webm)$', file_name)
-    return match.group(1) if match else "unknown"
+
+def extract_youtube_id(url: str) -> str:
+    """
+    Estrae YouTube ID solo da URL.
+
+    https://youtube.com/watch?v=lq0v2_5rl80 → lq0v2_5rl80
+    https://youtu.be/lq0v2_5rl80 → lq0v2_5rl80
+    """
+    parsed = urlparse(url)
+
+    # watch?v=
+    if '/watch?v=' in url:
+        return parse_qs(parsed.query)['v'][0]
+
+    # youtu.be/
+    if parsed.hostname == 'youtu.be':
+        return parsed.path.strip('/')
+
+    # embed/, v/, shorts/
+    if parsed.hostname in ('www.youtube.com', 'youtube.com'):
+        if parsed.path.startswith(('/embed/', '/v/', '/shorts/')):
+            return parsed.path.split('/')[-1]
+
+    return "unknown"
 
 
 def safe_filename(name: str) -> str:
@@ -286,7 +306,11 @@ def transcribe_audio(audio_file: str, output_dir: str = "transcripts",
 
     print(f"🎤 Whisper: {audio_path.name}")
     model = whisper.load_model(model_size)
+    print(f"File exists: {audio_path.exists()}")
+    print(f"Absolute: {audio_path.absolute()}")
+    print(f"Parent exists: {audio_path.parent.exists()}")
     result = model.transcribe(str(audio_path), language=language, fp16=False)
+
     segments = result["segments"]
 
     # SRT

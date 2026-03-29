@@ -2,8 +2,11 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# ✅ FFmpeg per Whisper audio
-RUN apt-get update && apt-get install -y **ffmpeg** && rm -rf /var/lib/apt/lists/*
+# Installa FFmpeg + yt-dlp deps (obbligatori per .webm → audio)
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 
 COPY requirements.txt .
